@@ -5,8 +5,10 @@
    
 * Questlog parser
 * Languagefile parser
+* Logfile parser
 * Virtual database **done**
 * Auto updater
+* Auto bug reporter
 * JIT-decoder
 * FX library
 * Cutscene library
