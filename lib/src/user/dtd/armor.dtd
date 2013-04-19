@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rarmor [
+<!ELEMENT rarmor (armor+)>
+<!ELEMENT rarmor (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT armor EMPTY>
+<!ATTLIST armor id ID #REQUIRED>
+<!ATTLIST armor name CDATA #REQUIRED>
+<!ATTLIST armor desc_id CDATA #REQUIRED>
+<!ATTLIST armor worth CDATA #REQUIRED>
+<!ATTLIST armor weight CDATA #REQUIRED>
+<!ATTLIST armor sockets CDATA "0">
+<!ATTLIST armor rarity CDATA #REQUIRED>
+<!ATTLIST armor material CDATA #REQUIRED>
+<!ATTLIST armor set_index_id CDATA #REQUIRED>
+<!ATTLIST armor stat_index CDATA #REQUIRED>
+<!ATTLIST armor stat_change_index CDATA #REQUIRED>
+<!ATTLIST armor stat_change_value CDATA #REQUIRED>
+<!ATTLIST armor char_usage_index CDATA #REQUIRED>
+<!ATTLIST armor script_event_id CDATA #REQUIRED>
+]>

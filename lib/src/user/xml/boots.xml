@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rboots SYSTEM "boots.dtd">
+<!-- EXAMPEL -->
+
+<!--
+    Document   : boots.xml
+    Created on : 19. April 2013, 19:02
+    Author     : Apokalyps07
+    Description: Object Type = Boots template
+    Extension  : *.dbe, *.vdbe
+
+-->
+
+<rboots>
+
+<!-- root-tag, do not change unless you know what you're doing-->
+<root>boots</root>
+
+<!-- Tag can be used once or multiple times-->
+<!-- Array values are seperated by ,-->
+<boots
+id="0x0000"
+name="0x0000"
+desc_id="0x0000"
+worth="0000"
+weight="0000"
+sockets="0000"
+rarity="0x0000"
+material="0x0000"
+set_index_id="0x0000"
+stat_index="0000,0000,0000,0000,0000"
+stat_change_index="0x0000,0x0000,0x0000,0x0000,0x0000"
+stat_change_value="0000,0000,0000,0000,0000"
+char_usage_index="0x0000,0x0000,0x0000,0x0000,0x0000"
+script_event_id="0x0000,0x0000,0x0000,0x0000,0x0000"
+/>
+
+</rboots>

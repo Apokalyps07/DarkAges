@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rnecklace [
+<!ELEMENT rnecklace (necklace+)>
+<!ELEMENT rnecklace (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT necklace EMPTY>
+<!ATTLIST necklace id ID #REQUIRED>
+<!ATTLIST necklace name CDATA #REQUIRED>
+<!ATTLIST necklace desc_id CDATA #REQUIRED>
+<!ATTLIST necklace worth CDATA #REQUIRED>
+<!ATTLIST necklace weight CDATA #REQUIRED>
+<!ATTLIST necklace sockets CDATA "0">
+<!ATTLIST necklace rarity CDATA #REQUIRED>
+<!ATTLIST necklace material CDATA #REQUIRED>
+<!ATTLIST necklace set_index_id CDATA #REQUIRED>
+<!ATTLIST necklace stat_index CDATA #REQUIRED>
+<!ATTLIST necklace stat_change_index CDATA #REQUIRED>
+<!ATTLIST necklace stat_change_value CDATA #REQUIRED>
+<!ATTLIST necklace char_usage_index CDATA #REQUIRED>
+<!ATTLIST necklace script_event_id CDATA #REQUIRED>
+]>

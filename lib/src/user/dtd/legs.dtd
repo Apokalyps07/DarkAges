@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rleg [
+<!ELEMENT rleg (leg+)>
+<!ELEMENT rleg (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT leg EMPTY>
+<!ATTLIST leg id ID #REQUIRED>
+<!ATTLIST leg name CDATA #REQUIRED>
+<!ATTLIST leg desc_id CDATA #REQUIRED>
+<!ATTLIST leg worth CDATA #REQUIRED>
+<!ATTLIST leg weight CDATA #REQUIRED>
+<!ATTLIST leg sockets CDATA "0">
+<!ATTLIST leg rarity CDATA #REQUIRED>
+<!ATTLIST leg material CDATA #REQUIRED>
+<!ATTLIST leg set_index_id CDATA #REQUIRED>
+<!ATTLIST leg stat_index CDATA #REQUIRED>
+<!ATTLIST leg stat_change_index CDATA #REQUIRED>
+<!ATTLIST leg stat_change_value CDATA #REQUIRED>
+<!ATTLIST leg char_usage_index CDATA #REQUIRED>
+<!ATTLIST leg script_event_id CDATA #REQUIRED>
+]>

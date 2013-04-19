@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rweapon [
+<!ELEMENT rweapon (weapon+)>
+<!ELEMENT rweapon (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT weapon EMPTY>
+<!ATTLIST weapon id ID #REQUIRED>
+<!ATTLIST weapon name CDATA #REQUIRED>
+<!ATTLIST weapon desc_id CDATA #REQUIRED>
+<!ATTLIST weapon worth CDATA #REQUIRED>
+<!ATTLIST weapon weight CDATA #REQUIRED>
+<!ATTLIST weapon length CDATA #REQUIRED>
+<!ATTLIST weapon sockets CDATA "0">
+<!ATTLIST weapon rhand CDATA "1">
+<!ATTLIST weapon rarity CDATA #REQUIRED>
+<!ATTLIST weapon material CDATA #REQUIRED>
+<!ATTLIST weapon set_index_id CDATA #REQUIRED>
+<!ATTLIST weapon stat_index CDATA #REQUIRED>
+<!ATTLIST weapon stat_change_index CDATA #REQUIRED>
+<!ATTLIST weapon stat_change_value CDATA #REQUIRED>
+<!ATTLIST weapon char_usage_index CDATA #REQUIRED>
+<!ATTLIST weapon script_event_id CDATA #REQUIRED>
+]>

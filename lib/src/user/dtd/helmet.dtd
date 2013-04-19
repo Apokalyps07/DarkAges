@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rhelmet [
+<!ELEMENT rhelmet (helmet+)>
+<!ELEMENT rhelmet (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT helmet EMPTY>
+<!ATTLIST helmet id ID #REQUIRED>
+<!ATTLIST helmet name CDATA #REQUIRED>
+<!ATTLIST helmet desc_id CDATA #REQUIRED>
+<!ATTLIST helmet worth CDATA #REQUIRED>
+<!ATTLIST helmet weight CDATA #REQUIRED>
+<!ATTLIST helmet sockets CDATA "0">
+<!ATTLIST helmet rarity CDATA #REQUIRED>
+<!ATTLIST helmet material CDATA #REQUIRED>
+<!ATTLIST helmet set_index_id CDATA #REQUIRED>
+<!ATTLIST helmet stat_index CDATA #REQUIRED>
+<!ATTLIST helmet stat_change_index CDATA #REQUIRED>
+<!ATTLIST helmet stat_change_value CDATA #REQUIRED>
+<!ATTLIST helmet char_usage_index CDATA #REQUIRED>
+<!ATTLIST helmet script_event_id CDATA #REQUIRED>
+]>

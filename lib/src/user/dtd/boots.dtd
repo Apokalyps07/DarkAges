@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rboots [
+<!ELEMENT rboots (boots+)>
+<!ELEMENT rboots (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT boots EMPTY>
+<!ATTLIST boots id ID #REQUIRED>
+<!ATTLIST boots name CDATA #REQUIRED>
+<!ATTLIST boots desc_id CDATA #REQUIRED>
+<!ATTLIST boots worth CDATA #REQUIRED>
+<!ATTLIST boots weight CDATA #REQUIRED>
+<!ATTLIST boots sockets CDATA "0">
+<!ATTLIST boots rarity CDATA #REQUIRED>
+<!ATTLIST boots material CDATA #REQUIRED>
+<!ATTLIST boots set_index_id CDATA #REQUIRED>
+<!ATTLIST boots stat_index CDATA #REQUIRED>
+<!ATTLIST boots stat_change_index CDATA #REQUIRED>
+<!ATTLIST boots stat_change_value CDATA #REQUIRED>
+<!ATTLIST boots char_usage_index CDATA #REQUIRED>
+<!ATTLIST boots script_event_id CDATA #REQUIRED>
+]>

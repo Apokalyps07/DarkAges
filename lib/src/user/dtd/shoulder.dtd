@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rshoulder [
+<!ELEMENT rshoulder (shoulder+)>
+<!ELEMENT rshoulder (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT shoulder EMPTY>
+<!ATTLIST shoulder id ID #REQUIRED>
+<!ATTLIST shoulder name CDATA #REQUIRED>
+<!ATTLIST shoulder desc_id CDATA #REQUIRED>
+<!ATTLIST shoulder worth CDATA #REQUIRED>
+<!ATTLIST shoulder weight CDATA #REQUIRED>
+<!ATTLIST shoulder sockets CDATA "0">
+<!ATTLIST shoulder rarity CDATA #REQUIRED>
+<!ATTLIST shoulder material CDATA #REQUIRED>
+<!ATTLIST shoulder set_index_id CDATA #REQUIRED>
+<!ATTLIST shoulder stat_index CDATA #REQUIRED>
+<!ATTLIST shoulder stat_change_index CDATA #REQUIRED>
+<!ATTLIST shoulder stat_change_value CDATA #REQUIRED>
+<!ATTLIST shoulder char_usage_index CDATA #REQUIRED>
+<!ATTLIST shoulder script_event_id CDATA #REQUIRED>
+]>

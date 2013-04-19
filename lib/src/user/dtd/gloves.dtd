@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rgloves [
+<!ELEMENT rgloves (gloves+)>
+<!ELEMENT rgloves (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT gloves EMPTY>
+<!ATTLIST gloves id ID #REQUIRED>
+<!ATTLIST gloves name CDATA #REQUIRED>
+<!ATTLIST gloves desc_id CDATA #REQUIRED>
+<!ATTLIST gloves worth CDATA #REQUIRED>
+<!ATTLIST gloves weight CDATA #REQUIRED>
+<!ATTLIST gloves sockets CDATA "0">
+<!ATTLIST gloves rarity CDATA #REQUIRED>
+<!ATTLIST gloves material CDATA #REQUIRED>
+<!ATTLIST gloves set_index_id CDATA #REQUIRED>
+<!ATTLIST gloves stat_index CDATA #REQUIRED>
+<!ATTLIST gloves stat_change_index CDATA #REQUIRED>
+<!ATTLIST gloves stat_change_value CDATA #REQUIRED>
+<!ATTLIST gloves char_usage_index CDATA #REQUIRED>
+<!ATTLIST gloves script_event_id CDATA #REQUIRED>
+]>

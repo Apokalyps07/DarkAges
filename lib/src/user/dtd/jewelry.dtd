@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rjewelry [
+<!ELEMENT rjewelry (jewelry+)>
+<!ELEMENT rjewelry (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT jewelry EMPTY>
+<!ATTLIST jewelry id ID #REQUIRED>
+<!ATTLIST jewelry name CDATA #REQUIRED>
+<!ATTLIST jewelry desc_id CDATA #REQUIRED>
+<!ATTLIST jewelry worth CDATA #REQUIRED>
+<!ATTLIST jewelry weight CDATA #REQUIRED>
+<!ATTLIST jewelry sockets CDATA "0">
+<!ATTLIST jewelry rarity CDATA #REQUIRED>
+<!ATTLIST jewelry material CDATA #REQUIRED>
+<!ATTLIST jewelry set_index_id CDATA #REQUIRED>
+<!ATTLIST jewelry stat_index CDATA #REQUIRED>
+<!ATTLIST jewelry stat_change_index CDATA #REQUIRED>
+<!ATTLIST jewelry stat_change_value CDATA #REQUIRED>
+<!ATTLIST jewelry char_usage_index CDATA #REQUIRED>
+<!ATTLIST jewelry script_event_id CDATA #REQUIRED>
+]>
