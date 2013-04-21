@@ -6,6 +6,7 @@
 * Questlog parser
 * Languagefile parser
 * Logfile parser
+* Virtual database external content parser **done**
 * Virtual database **done**
 * Auto updater
 * Auto bug reporter
