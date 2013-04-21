@@ -19,4 +19,7 @@
 <!ATTLIST gloves stat_change_value CDATA #REQUIRED>
 <!ATTLIST gloves char_usage_index CDATA #REQUIRED>
 <!ATTLIST gloves script_event_id CDATA #REQUIRED>
+<!ATTLIST gloves element_change_index CDATA #REQUIRED>
+<!ATTLIST gloves element_change_value CDATA #REQUIRED>
+<!ATTLIST gloves user_animation_loop CDATA #REQUIRED>
 ]>

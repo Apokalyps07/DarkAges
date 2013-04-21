@@ -21,4 +21,7 @@
 <!ATTLIST shield stat_change_value CDATA #REQUIRED>
 <!ATTLIST shield char_usage_index CDATA #REQUIRED>
 <!ATTLIST shield script_event_id CDATA #REQUIRED>
+<!ATTLIST shield element_change_index CDATA #REQUIRED>
+<!ATTLIST shield element_change_value CDATA #REQUIRED>
+<!ATTLIST shield user_animation_loop CDATA #REQUIRED>
 ]>

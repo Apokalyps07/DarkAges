@@ -19,4 +19,7 @@
 <!ATTLIST leg stat_change_value CDATA #REQUIRED>
 <!ATTLIST leg char_usage_index CDATA #REQUIRED>
 <!ATTLIST leg script_event_id CDATA #REQUIRED>
+<!ATTLIST leg element_change_index CDATA #REQUIRED>
+<!ATTLIST leg element_change_value CDATA #REQUIRED>
+<!ATTLIST leg user_animation_loop CDATA #REQUIRED>
 ]>

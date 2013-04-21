@@ -19,4 +19,7 @@
 <!ATTLIST helmet stat_change_value CDATA #REQUIRED>
 <!ATTLIST helmet char_usage_index CDATA #REQUIRED>
 <!ATTLIST helmet script_event_id CDATA #REQUIRED>
+<!ATTLIST helmet element_change_index CDATA #REQUIRED>
+<!ATTLIST helmet element_change_value CDATA #REQUIRED>
+<!ATTLIST helmet user_animation_loop CDATA #REQUIRED>
 ]>

@@ -21,4 +21,8 @@
 <!ATTLIST weapon stat_change_value CDATA #REQUIRED>
 <!ATTLIST weapon char_usage_index CDATA #REQUIRED>
 <!ATTLIST weapon script_event_id CDATA #REQUIRED>
+<!ATTLIST weapon element_change_index CDATA #REQUIRED>
+<!ATTLIST weapon element_change_value CDATA #REQUIRED>
+<!ATTLIST weapon user_animation CDATA #REQUIRED>
+<!ATTLIST weapon target_animation CDATA #REQUIRED>
 ]>

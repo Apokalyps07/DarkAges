@@ -56,6 +56,11 @@ module DBEParser
       data[i][13] << element.attributes["char_usage_index"]
       data[i][13].scan(",") if data[i][14].include? ","
       data[i][14] << element.attributes["script_event_id"].scan(",")
+      data[i][15] << element.attributes["element_change_index"].scan(",")
+      data[i][16] << element.attributes["element_change_value"].scan(",")
+      
+      # Animations
+      data[i][17] << element.attributes["user_animation_loop"]
       i += 1
     }
     return data
@@ -86,6 +91,12 @@ module DBEParser
       data[i][14] << element.attributes["char_usage_index"]
       data[i][14].scan(",") if data[i][14].include? ","
       data[i][15] << element.attributes["script_event_id"].scan(",")
+      data[i][16] << element.attributes["element_change_index"].scan(",")
+      data[i][17] << element.attributes["element_change_value"].scan(",")
+      
+      # Animaions
+      data[i][18] << element.attributes["user_animation"]
+      data[i][19] << element.attributes["user_animation"]
       i += 1
     }
     return data
@@ -116,6 +127,11 @@ module DBEParser
       data[i][14] << element.attributes["char_usage_index"]
       data[i][14].scan(",") if data[i][14].include? ","
       data[i][15] << element.attributes["script_event_id"].scan(",")
+      data[i][16] << element.attributes["element_change_index"].scan(",")
+      data[i][17] << element.attributes["element_change_value"].scan(",")
+
+      # Animations
+      data[i][18] << element.attributes["user_animation_loop"]
       i += 1
     }
     return data

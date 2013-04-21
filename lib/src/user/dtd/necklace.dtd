@@ -19,4 +19,7 @@
 <!ATTLIST necklace stat_change_value CDATA #REQUIRED>
 <!ATTLIST necklace char_usage_index CDATA #REQUIRED>
 <!ATTLIST necklace script_event_id CDATA #REQUIRED>
+<!ATTLIST necklace element_change_index CDATA #REQUIRED>
+<!ATTLIST necklace element_change_value CDATA #REQUIRED>
+<!ATTLIST necklace user_animation_loop CDATA #REQUIRED>
 ]>

@@ -19,4 +19,7 @@
 <!ATTLIST boots stat_change_value CDATA #REQUIRED>
 <!ATTLIST boots char_usage_index CDATA #REQUIRED>
 <!ATTLIST boots script_event_id CDATA #REQUIRED>
+<!ATTLIST boots element_change_index CDATA #REQUIRED>
+<!ATTLIST boots element_change_value CDATA #REQUIRED>
+<!ATTLIST boots user_animation_loop CDATA #REQUIRED>
 ]>

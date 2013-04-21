@@ -19,4 +19,7 @@
 <!ATTLIST shoulder stat_change_value CDATA #REQUIRED>
 <!ATTLIST shoulder char_usage_index CDATA #REQUIRED>
 <!ATTLIST shoulder script_event_id CDATA #REQUIRED>
+<!ATTLIST shoulder element_change_index CDATA #REQUIRED>
+<!ATTLIST shoulder element_change_value CDATA #REQUIRED>
+<!ATTLIST shoulder user_animation_loop CDATA #REQUIRED>
 ]>
