@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE rshield [
+<!ELEMENT rshield (shield+)>
+<!ELEMENT rshield (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT shield EMPTY>
+<!ATTLIST shield id ID #REQUIRED>
+<!ATTLIST shield name CDATA #REQUIRED>
+<!ATTLIST shield desc_id CDATA #REQUIRED>
+<!ATTLIST shield worth CDATA #REQUIRED>
+<!ATTLIST shield weight CDATA #REQUIRED>
+<!ATTLIST shield width CDATA #REQUIRED>
+<!ATTLIST shield length CDATA #REQUIRED>
+<!ATTLIST shield sockets CDATA "0">
+<!ATTLIST shield rarity CDATA #REQUIRED>
+<!ATTLIST shield material CDATA #REQUIRED>
+<!ATTLIST shield set_index_id CDATA #REQUIRED>
+<!ATTLIST shield stat_index CDATA #REQUIRED>
+<!ATTLIST shield stat_change_index CDATA #REQUIRED>
+<!ATTLIST shield stat_change_value CDATA #REQUIRED>
+<!ATTLIST shield char_usage_index CDATA #REQUIRED>
+<!ATTLIST shield script_event_id CDATA #REQUIRED>
+]>

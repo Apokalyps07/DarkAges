@@ -105,18 +105,17 @@ module DBEParser
       data[i][5] << element.attributes["width"]
       data[i][6] << element.attributes["length"]
       data[i][7] << element.attributes["sockets"]
-      data[i][8] << element.attributes["rhand"]
-      data[i][9] << element.attributes["rarity"]
-      data[i][10] << element.attributes["material"]
-      data[i][11] << element.attributes["set_index_id"]
+      data[i][8] << element.attributes["rarity"]
+      data[i][9] << element.attributes["material"]
+      data[i][10] << element.attributes["set_index_id"]
 
       # Multiple entries
-      data[i][12] << element.attributes["stat_index"].scan(",")
-      data[i][13] << element.attributes["stat_change_index"].scan(",")
-      data[i][14] << element.attributes["stat_change_value"].scan(",")
-      data[i][15] << element.attributes["char_usage_index"]
-      data[i][15].scan(",") if data[i][14].include? ","
-      data[i][16] << element.attributes["script_event_id"].scan(",")
+      data[i][11] << element.attributes["stat_index"].scan(",")
+      data[i][12] << element.attributes["stat_change_index"].scan(",")
+      data[i][13] << element.attributes["stat_change_value"].scan(",")
+      data[i][14] << element.attributes["char_usage_index"]
+      data[i][14].scan(",") if data[i][14].include? ","
+      data[i][15] << element.attributes["script_event_id"].scan(",")
       i += 1
     }
     return data
