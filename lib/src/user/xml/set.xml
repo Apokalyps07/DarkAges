@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE set SYSTEM "set.dtd">
 
 <!--
     Document   : set.xml
@@ -8,6 +9,7 @@
     Extensions : *.dbe, *.vdbe
 -->
 
+<!-- Each set requires a unique file! -->
 <set>
     
 <!-- root-tag, do not change unless you know what you're doing-->

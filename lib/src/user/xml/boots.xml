@@ -36,6 +36,7 @@ script_event_id="0x0000,0x0000,0x0000,0x0000,0x0000"
 element_change_index="0x0000,0x0000,0x0000,0x0000,0x0000"
 element_change_value="0000,0000,0000,0000,0000"
 user_animation_loop="0x0000"
+icon_path="./graphics/items/icon.png"
 />
 
 </rboots>

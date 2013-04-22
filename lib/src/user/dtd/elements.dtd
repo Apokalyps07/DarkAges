@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE relements [
+<!ELEMENT relements (root)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT element EMPTY>
+<!ATTLIST element id ID #REQUIRED>
+<!ATTLIST element name CDATA #REQUIRED>
+<!ATTLIST element desc_id CDATA #REQUIRED>
+<!ATTLIST element stat_index CDATA #REQUIRED>
+<!ATTLIST element stat_change_index CDATA #REQUIRED>
+<!ATTLIST element stat_change_value CDATA #REQUIRED>
+<!ATTLIST element script_event_id CDATA #REQUIRED>
+<!ATTLIST element target_animation CDATA #REQUIRED>
+<!ATTLIST element target_animation_loop CDATA #REQUIRED>
+<!ATTLIST element icon_path CDATA #REQUIRED>
+]>
