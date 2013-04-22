@@ -15,9 +15,10 @@ module DBEParser
     table_root = doc.elements["root"].to_sym
     
     @@doc = case table_root
-    when "weapon" then parse_weapon(doc)
-    when "shield" then parse_shield(doc)
-    when "set"    then parse_set(doc)
+    when "weapon"   then parse_weapon(doc)
+    when "shield"   then parse_shield(doc)
+    when "set"      then parse_set(doc)
+    when "elements" then parse_elements(doc)
     else parse_std(doc,table_root)
     end
     
@@ -63,7 +64,7 @@ module DBEParser
       data[i][17] << element.attributes["user_animation_loop"]
 
       # Path
-      data[i][18] << element.attributes["item_path"]
+      data[i][18] << element.attributes["icon_path"]
       i += 1
     }
     return data
@@ -101,7 +102,7 @@ module DBEParser
       data[i][19] << element.attributes["target_animation"]
 
       # Path
-      data[i][20] << element.attributes["item_path"]
+      data[i][20] << element.attributes["icon_path"]
       i += 1
     }
     return data
@@ -138,7 +139,7 @@ module DBEParser
       data[i][18] << element.attributes["user_animation_loop"]
 
       # Path
-      data[i][19] << element.attributes["item_path"]
+      data[i][19] << element.attributes["icon_path"]
       i += 1
     }
     return data
@@ -148,7 +149,6 @@ module DBEParser
     data = [[]]
     i = 0
     doc.elements.each("set/bonus") {|element|
-      # Single entries
       data[i][0] << element.attributes["stat_change_index"].scan(/[^,]+/)
       data[i][1] << element.attributes["stat_change_value"].scan(/[^,]+/)
       data[i][2] << element.attributes["script_event_id"].scan(/[^,]+/)
@@ -157,6 +157,31 @@ module DBEParser
 
       # Animation
       data[i][5] << element.attributes["user_animation_loop"]
+      i += 1
+    }
+    return data
+  end
+
+  def parse_elements(doc)
+    data = [[]]
+    i = 0
+    doc.elements.each("set/bonus") {|element|
+      # Single entries
+      data[i][0] << element.attributes["id"]
+      data[i][1] << element.attributes["name"]
+      data[i][2] << element.attributes["desc_id"]
+
+      # Multiple entries
+      data[i][3] << element.attributes["stat_index"].scan(/[^,]+/)
+      data[i][4] << element.attributes["stat_change_index"].scan(/[^,]+/)
+      data[i][5] << element.attributes["stat_change_value"].scan(/[^,]+/)
+      data[i][6] << element.attributes["script_event_id"].scan(/[^,]+/)
+
+      # Animation
+      data[i][7] << element.attributes["target_animation"]
+      data[i][8] << element.attributes["target_animation_loop"]
+
+      data[i][9] << element.attributes["icon_path"]
       i += 1
     }
     return data
