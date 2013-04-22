@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!DOCTYPE set [
+<!ELEMENT set (root)>
+<!ELEMENT set (id)>
+<!ELEMENT set (name)>
+<!ELEMENT set (set_index)>
+<!ELEMENT set (bonus)>
+<!ELEMENT root (#PCDATA)>
+<!ELEMENT id (ID)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT set_index (#PCDATA)>
+<!ELEMENT bonus EMPTY>
+<!ATTLIST bonus stat_change_index CDATA #REQUIRED>
+<!ATTLIST bonus stat_change_value CDATA #REQUIRED>
+<!ATTLIST bonus script_event_id CDATA #REQUIRED>
+<!ATTLIST bonus element_change_index CDATA #REQUIRED>
+<!ATTLIST bonus element_change_value CDATA #REQUIRED>
+<!ATTLIST bonus user_animation_loop "0x0000" #REQUIRED>
+]>

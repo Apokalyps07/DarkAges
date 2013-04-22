@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : set.xml
+    Created on : 22. April 2013, 13:56
+    Author     : Apokalyps07
+    Description: Object Type = SetIndex template
+    Extensions : *.dbe, *.vdbe
+-->
+
+<set>
+    
+<!-- root-tag, do not change unless you know what you're doing-->
+<root>set</root>
+
+<id>0x0000</id>
+<name>0x0000</name>
+<set_index>0x0000,0x0000,0x0000,0x0000,0x0000</set_index>
+
+<bonus
+stat_change_index="0x0000,0x0000,0x0000,0x0000,0x0000"
+stat_change_value="0000,0000,0000,0000,0000"
+script_event_id="0x0000,0x0000,0x0000,0x0000,0x0000"
+element_change_index="0x0000,0x0000,0x0000,0x0000,0x0000"
+element_change_value="0000,0000,0000,0000,0000"
+user_animation_loop="0x0000"
+/>
+
+</set>
